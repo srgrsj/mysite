@@ -25,7 +25,7 @@ SECRET_KEY = 'spidran po maincraftu, poehali...o_poVEzLO_PoveZLO'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['towar52.pythonanywhere.com']
 
 
 # Application definition
