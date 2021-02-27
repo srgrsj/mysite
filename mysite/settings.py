@@ -31,6 +31,7 @@ ALLOWED_HOSTS = ['towar52.pythonanywhere.com', '127.0.0.1', 'localhost']
 # Application definition
 
 INSTALLED_APPS = [
+    'polls.apps.PollsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
