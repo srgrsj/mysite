@@ -11,6 +11,7 @@ class Question(models.Model):
 
 class Choice(models.Model):
     question = models.ForeignKey(Question, on_delete=models.CASCADE)
-
+    def __str__(self):
+        return self.text
     text = models.CharField(max_length=500)
     votes = models.IntegerField(default=0)
